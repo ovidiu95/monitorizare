@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RepoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-05-23T22:18:31" hostname="Ovidiu" time="7.678">
+  <properties/>
+  <testcase name="addTask" classname="RepoTest" time="7.678"/>
+  <system-out><![CDATA[Hibernate: select this_.id as id1_0_0_, this_.arriveHour as arriveHo2_0_0_, this_.isAdmin as isAdmin3_0_0_, this_.name as name4_0_0_, this_.password as password5_0_0_, this_.username as username6_0_0_ from appuser this_ where this_.username=?
+Hibernate: insert into task (description, employee_id) values (?, ?)
+]]></system-out>
+  <system-err><![CDATA[May 24, 2016 1:18:32 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {5.1.0.Final}
+May 24, 2016 1:18:32 AM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+May 24, 2016 1:18:32 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+May 24, 2016 1:18:33 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+May 24, 2016 1:18:33 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+May 24, 2016 1:18:33 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/monitorizare]
+May 24, 2016 1:18:33 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {user=postgres, password=****}
+May 24, 2016 1:18:33 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+May 24, 2016 1:18:33 AM org.hibernate.engine.jdbc.connections.internal.PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+May 24, 2016 1:18:34 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+May 24, 2016 1:18:34 AM org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl useContextualLobCreation
+INFO: HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+May 24, 2016 1:18:34 AM org.hibernate.type.BasicTypeRegistry register
+INFO: HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5a5528d1
+May 24, 2016 1:18:37 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+May 24, 2016 1:18:37 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/monitorizare]
+May 24, 2016 1:18:37 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {user=postgres, password=****}
+May 24, 2016 1:18:37 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+May 24, 2016 1:18:37 AM org.hibernate.engine.jdbc.connections.internal.PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+May 24, 2016 1:18:38 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+May 24, 2016 1:18:38 AM org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl useContextualLobCreation
+INFO: HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+May 24, 2016 1:18:38 AM org.hibernate.type.BasicTypeRegistry register
+INFO: HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5a5528d1
+]]></system-err>
+</testsuite>
